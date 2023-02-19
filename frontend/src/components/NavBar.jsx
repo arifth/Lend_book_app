@@ -73,13 +73,26 @@ export default function NavBar() {
             <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
               {isLoggedIn ? (
                 <>
-                  <div class="relative">
-                    <img
-                      class="w-10 h-10 rounded-full"
-                      src="https://th.bing.com/th/id/OIP.Iw_QLshTpykxbM56j168_wHaFV?pid=ImgDet&rs=1"
-                      alt=""
-                    />
-                    <span class="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                  {/*  */}
+                  <div className="dropdown dropdown-end">
+                    <label tabIndex={0} className="">
+                      <div class="relative">
+                        <img
+                          class="w-10 h-10 rounded-full"
+                          src="https://th.bing.com/th/id/OIP.Iw_QLshTpykxbM56j168_wHaFV?pid=ImgDet&rs=1"
+                          alt=""
+                        />
+                        <span class="top-0 left-7 absolute  w-3.5 h-3.5 bg-green-400 border-2 border-white dark:border-gray-800 rounded-full"></span>
+                      </div>
+                    </label>
+                    <ul
+                      tabIndex={0}
+                      className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52"
+                    >
+                      <li>
+                        <a>Log out</a>
+                      </li>
+                    </ul>
                   </div>
                 </>
               ) : (

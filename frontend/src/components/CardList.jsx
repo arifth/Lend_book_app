@@ -12,19 +12,19 @@ export default function CardList({ cover, title, Author }) {
     {
       id: 2,
       cover: "cover2.jpg",
-      title: "Atomic Habbit",
+      title: "Rich Dad Poor Dad",
       Author: "arif ",
     },
     {
-      id: 3,
+      id: 2,
       cover: "cover2.jpg",
-      title: "Atomic Habbit",
+      title: "Rich Dad Poor Dad",
       Author: "arif ",
     },
     {
-      id: 4,
+      id: 2,
       cover: "cover2.jpg",
-      title: "Atomic Habbit",
+      title: "Rich Dad Poor Dad",
       Author: "arif ",
     },
   ];
