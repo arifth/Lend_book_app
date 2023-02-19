@@ -15,7 +15,16 @@ optional but advisable
 
 - [redis](https://redis.io/)
 
+
+## **Images**
+
+![alt text](https://github.com/arifth/Lend_book_app/tree/main/images#:~:text=Screen%20Shot%202023%2D02%2D20%20at%2001.51.40.png)
+
+
+
 ## **Folder structure**
+
+
 
 ```
 .
