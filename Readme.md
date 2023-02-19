@@ -10,7 +10,6 @@
 - [react](https://reactjs.org/)
 - [vite](https://vitejs.dev/)
 - [tailwind](https://tailwindcss.com/)
-- [adminLTE](https://www.tailwindtoolbox.com/starter-templates)
 
 optional but advisable
 
