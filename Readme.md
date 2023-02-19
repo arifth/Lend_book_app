@@ -18,7 +18,9 @@ optional but advisable
 
 ## **Images**
 
-![alt text](https://github.com/arifth/Lend_book_app/blob/main/images/Screen%20Shot%202023-02-20%20at%2001.51.40.png)
+![](https://github.com/arifth/Lend_book_app/blob/main/images/Screen%20Shot%202023-02-20%20at%2001.51.40.png)
+![](https://github.com/arifth/Lend_book_app/blob/main/images/Screen%20Shot%202023-02-20%20at%2001.52.38.png)
+
 
 
 
