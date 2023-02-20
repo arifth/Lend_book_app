@@ -13,7 +13,7 @@
 
 optional but advisable
 
-- [redis](https://redis.io/)
+- ~~[redis](https://redis.io/)~~
 
 
 ## **Images**
