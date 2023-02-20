@@ -17,6 +17,15 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
+console.log(path.join(__dirname, "..", "frontend", "dist", "index.html"));
+app.use(
+  "/frontend",
+  express.static(path.join(__dirname, "..", "frontend", "dist", "index.html"))
+);
+app.use(
+  "/assets",
+  express.static(path.join(__dirname, "..", "frontend", "dist", "assets"))
+);
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(cors());
