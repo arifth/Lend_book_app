@@ -15,6 +15,10 @@ optional but advisable
 
 - ~~[redis](https://redis.io/)~~
 
+## **Postman Collection Link**
+
+[Collection Postman](https://documenter.getpostman.com/view/13456749/2s93CHvFW5#e50647fb-8c91-4fad-9cdc-50e1b0e22191)
+
 
 ## **Images**
 
