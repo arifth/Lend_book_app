@@ -19,10 +19,7 @@ app.use(express.json());
 app.use(cookieParser());
 console;
 console.log(path.join(__dirname, "..", "frontend", "dist", "index.html"));
-app.use(
-  "/frontend",
-  express.static(path.join(__dirname, "..", "frontend", "dist", "index.html"))
-);
+app.use("/", express.static(path.join(__dirname, "..", "frontend", "dist")));
 app.use(
   "/assets",
   express.static(path.join(__dirname, "..", "frontend", "dist", "assets"))
