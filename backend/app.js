@@ -17,6 +17,7 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cookieParser());
+console;
 console.log(path.join(__dirname, "..", "frontend", "dist", "index.html"));
 app.use(
   "/frontend",
